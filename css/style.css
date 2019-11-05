@@ -126,7 +126,7 @@ li {
   width: 20em;
   margin: 1em;
 }
-@media screen and (max-height: 1600px) {
+@media screen and (min-height: 1000px) {
 	body {
 		background-color: lightgreen;
 	}
