@@ -133,7 +133,9 @@ li {
 	nav a {
 		float: none;
 		width: 100%;
-		font-color: red;
+		color: red;
+		display: block;
+		padding: 0em;
 	}
 }
 	
