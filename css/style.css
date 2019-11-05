@@ -137,5 +137,10 @@ li {
 		display: block;
 		padding: 0em;
 	}
+	p {
+		font-size: 1em;
+		font-family: Times;
+		color: yellow;
+	}
 }
 	
