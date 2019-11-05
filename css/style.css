@@ -130,5 +130,9 @@ li {
 	body {
 		background-color: lightgreen;
 	}
+	nav a {
+		float: none;
+		width: 100%;
+	}
 }
 	
