@@ -151,4 +151,9 @@ li {
 		text-decoration: underline;
 	}
 }
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: PapayaWhip;
+	}
+}
 	
