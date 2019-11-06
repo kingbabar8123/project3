@@ -140,7 +140,15 @@ li {
 	p {
 		font-size: 1em;
 		font-family: Times;
-		color: yellow;
+		color: olive;
+	}
+	li {
+		font-size: 1em;
+		list-style-type: none;
+	}
+	h2, h3, h4 {
+		font-size: 1.5e,;
+		text-decoration: underline;
 	}
 }
 	
