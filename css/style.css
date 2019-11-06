@@ -172,7 +172,9 @@ li {
 	}
 	nav a {
 		display:inline-block;
-		padding:1.5em;
+		padding:1.5em;'
+		float: left;
+		width: 0%;
 	}
 	li {
 	    font-size: 1.3em;
