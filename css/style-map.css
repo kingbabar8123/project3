@@ -1,0 +1,19 @@
+#map {
+  height: 50%;
+  width: 50%;
+  left: 25%;
+  top: 15%;
+  }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: red;
+  font-size: 1em;
+}
+.div-box {
+ margin: auto;
+ padding: auto; 
+ }
