@@ -1,8 +1,9 @@
 #map {
   height: 50%;
   width: 50%;
-  left: 25%;
-  top: 15%;
+  left: 20%;
+  top: 5%;
+  border: 5em solid green;
   }
 html, body {
   height: 100%;
@@ -11,9 +12,9 @@ html, body {
 }
 p {
   color: red;
-  font-size: 1em;
+  font-size: 1.5em;
+  padding: 1em;
 }
 .div-box {
- margin: auto;
- padding: auto; 
- }
+  border: 5em solid green;
+}
