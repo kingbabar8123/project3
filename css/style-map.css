@@ -7,6 +7,7 @@ body {
   left: 20%;
   top: 0%;
   border: 5em solid green;
+  padding: 0em;
   }
 html, body {
   height: 100%;
@@ -17,9 +18,7 @@ p {
   color: red;
   font-size: 1.1em;
   text-align: center;
-}
-.div-box {
-  border: 5em solid green;
+  padding: 0em;
 }
 h1 {
 	text-align: center;
@@ -43,3 +42,8 @@ nav a {
   display:inline-block;
   padding:1.5em;
 }
+div.box {
+	padding: 0em;
+}
+
+	
