@@ -21,10 +21,15 @@ function initMap() {
     position: {lat: 41.862681, lng: -87.616946}
   });
   marker.addListener('click', toggleBounce);
+  marker.addListener('click', function() {
+    infowindow2.open(map, marker);
+  });
   
   var contentString = '<h1>Soldier Field Info</h1><p>This Place is Awesome</p>';
   
   var contentString1 = '<h1>My Puppy</h1><p>Where my dog likes to mark his territory</p>';
+  
+  var contentString2 = '<h1>WAHOOOO!!!</h1>';
   
    var infowindow = new google.maps.InfoWindow({
     content: contentString
@@ -32,6 +37,10 @@ function initMap() {
   
     var infowindow1 = new google.maps.InfoWindow({
     content: contentString1
+  });
+  
+  var infowindow2 = new google.maps.InfoWindow({
+    content: contentString2
   });
   
   var marker1 = new google.maps.Marker({
