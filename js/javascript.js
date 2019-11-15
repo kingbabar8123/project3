@@ -4,7 +4,7 @@ function initMap() {
   var soldier = {lat: 41.861576, lng: -87.616701};
   var puppy = {lat: 41.864304, lng: -87.621565};
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 18,
+    zoom: 16,
     center: {lat: 41.862681, lng: -87.616946}
   });
 

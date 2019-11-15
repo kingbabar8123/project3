@@ -6,7 +6,7 @@ body.resume {
   background-color: white;
 }
 nav {
-  border: 1em;
+  position: relative;
   border-width: 1em 0;
   list-style: none;
   margin: 0;
@@ -16,12 +16,17 @@ nav {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2em;
   font-weight: normal;
+  overflow: hidden;
 }
+nav ul {
+		text-align: center;
+	}
 nav li {
   display:inline;
 }
 nav a {
   display:inline-block;
+  font-size: 1.2em;
   padding:1.5em;
 }
 .list {
@@ -126,6 +131,18 @@ li {
   float: left;
   width: 20em;
   margin: 1em;
+}
+#map {
+  height: 50%;
+  width: 50%;
+  left: 20%;
+  top: 0%;
+  border: 5em solid green;
+  }
+  html.map, body.map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 	
