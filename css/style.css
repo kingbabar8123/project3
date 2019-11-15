@@ -29,6 +29,10 @@ nav a {
   font-size: 1.2em;
   padding:1.5em;
 }
+nav a:hover {
+  display: inline-block;
+  background-color: green;
+}
 .list {
   text-align: center;
 }

@@ -5,7 +5,12 @@ function initMap() {
   var puppy = {lat: 41.864304, lng: -87.621565};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
-    center: {lat: 41.862681, lng: -87.616946}
+    center: {lat: 41.862681, lng: -87.616946},
+	mapTypeControl: true,
+	mapTypeControlOptions: {
+    style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+  }
+
   });
 
   marker = new google.maps.Marker({
@@ -19,8 +24,14 @@ function initMap() {
   
   var contentString = '<h1>Soldier Field Info</h1><p>This Place is Awesome</p>';
   
+  var contentString1 = '<h1>My Puppy</h1><p>Where my dog likes to mark his territory</p>';
+  
    var infowindow = new google.maps.InfoWindow({
     content: contentString
+  });
+  
+    var infowindow1 = new google.maps.InfoWindow({
+    content: contentString1
   });
   
   var marker1 = new google.maps.Marker({
@@ -38,6 +49,9 @@ function initMap() {
 	title: 'Where my dog likes to mark his territory',
 	icon: 'images/puppy1.jpg'
   });
+  marker2.addListener('click', function() {
+    infowindow1.open(map, marker2);
+  });
 
 
 }
@@ -51,7 +65,7 @@ function toggleBounce() {
 }
 function loadScript() {
 	var script = document.createElement('script');
-	script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCRr3WDJF1L8LFfsakkZzsiU0d3i0WH-5k&callback=initMap';
+	script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBtlwn67utrYAPCrMuZpQVn60VrgLMcl-Q&callback=initMap';
 	document.body.appendChild(script);
 }
 window.onload = loadScript;
