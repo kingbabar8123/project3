@@ -24,7 +24,7 @@ nav li {
 nav a {
   display:inline-block;
   font-size: 1.2em;
-  padding:1.5em;
+  padding:1em;
 }
 nav a:hover {
   display: inline-block;
