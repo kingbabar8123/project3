@@ -18,9 +18,6 @@ nav {
   font-weight: normal;
   overflow: hidden;
 }
-nav ul {
-		text-align: center;
-	}
 nav li {
   display:inline;
 }
@@ -153,5 +150,12 @@ li {
   margin: 0;
   padding: 0;
 }
-
+nav.fix {
+	margin-top: -.99%;
+	width: 97%;
+	padding: 0em;
+}
+nav.fix a {
+	margin-top: -.25%;
+}
 	
