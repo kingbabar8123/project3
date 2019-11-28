@@ -158,13 +158,13 @@ nav.fix {
 nav.fix a {
 	margin-top: -.15%;
 }
-#fixed body {
+body.fixed {
   background-color: PapayaWhip;
   font-family: Sofia, Verdana, sans-serif;
   width: 960px;
   margin: 0 auto;
 }
-#fixed nav {
+nav.fixed {
   border: 10px;
   border-width: 10px 0;
   list-style: none;
@@ -175,42 +175,43 @@ nav.fix a {
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
-#fixed nav li {
+nav li.fixed {
   display:inline;
 }
-#fixed nav a {
+nav a.fixed {
   display:inline-block;
   padding:10px;
 }
-#fixed p {
+p.fixed {
   padding: 5px;
   font-size: 20px;
 }
-#fixed p.center {
+p.center1 {
   text-align: center;
+  padding: 5px;
+  font-size: 20px;
 }
-#fixed h1 {
+h1.fixed {
   color: red;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
   text-decoration: underline;
   padding: 10px;
-  text-align: center;
+  text-align: ce
 }
-#fixed h2, h3, h4 {
+h2, h3, h4.fixed {
   color: brown;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   padding: 10px;
   text-align: center;
 }
-#fixed img {
-  display: block;
-  margin: 0 auto;
-  padding: 10px;
+ul.fixed {
+	font-size: 15px;
 }
-#fixed li {
+
+li.fixed {
   font-size: 15px;
   margin-left: 2px;
   list-style-type: disc;
